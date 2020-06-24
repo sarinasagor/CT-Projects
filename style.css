@@ -117,3 +117,9 @@ body {
 .mbt-2{
     margin-top: 20%;
 }
+.check-label{
+    color: #fff;
+}
+input#check {
+    margin: 0 8px;
+}
