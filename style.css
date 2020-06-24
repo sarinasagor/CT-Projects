@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind", sans-serif;
+    font-size: medium;
+}
+::selection {
+    color: white;
+    background: red;
+}
+body {
+    background-image: url("images/bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.reset-bg {
+    background-image: url("images/bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.form-wrapper {
+    width: 40%;
+    margin: 5% auto;
+    background: #03a9f4ad;
+    padding: 50px;
+    border-radius: 5px;
+}
+.admin-image {
+    width: 30%;
+    margin: 0 auto;
+}
+.admin-image > img {
+    max-width: 100%;
+    display: inline-block;
+}
+.form-wrapper > h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.form-wrapper .form {
+    text-align: right;
+}
+.form-wrapper .form-reset {
+    text-align: center;
+}
+.form-wrapper .form-control {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    background: #fdfdfdc4;
+    border: none;
+}
+.form-wrapper .btn {
+    background: #3f51b5;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+.form-wrapper .btn:hover {
+    cursor: pointer;
+    background: #2196f3;
+}
+.form-wrapper .btn-reset {
+    background: #3f51b5;
+    text-align: center;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    margin-top: 20px;
+}
+.form-wrapper .btn-reset:hover {
+    cursor: pointer;
+    background: #2196f3;
+}
+.link-button {
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    overflow: hidden;
+}
+.link-button a {
+    display: inline-block;
+    background: #3f51b5;
+    margin-top: 40px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: 0.2s ease-in-out;
+}
+.link-button a:hover {
+    cursor: pointer;
+    background: #2196f3;
+}
+.link-button .link-1 {
+    float: left;
+}
+.link-button .link-2 {
+    float: right;
+}
