@@ -29,6 +29,7 @@ body {
     background: #03a9f4ad;
     padding: 50px;
     border-radius: 5px;
+    box-shadow: 1px 1px 15px #000000bd;
 }
 .admin-image {
     width: 30%;
